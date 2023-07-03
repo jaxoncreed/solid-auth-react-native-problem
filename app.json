@@ -2,6 +2,7 @@
   "expo": {
     "name": "solid-auth-react-native-problem",
     "slug": "solid-auth-react-native-problem",
+    "scheme": "testapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -26,6 +27,10 @@
     "web": {
       "favicon": "./assets/favicon.png",
       "bundler": "metro"
+    },
+    "overrides": {
+      "metro": "0.76.0",
+      "metro-resolver": "0.76.0"
     }
   }
 }
